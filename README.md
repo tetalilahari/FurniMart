@@ -1,4 +1,9 @@
-FurniMart - Modern Furniture E-commerce Website
+                                                      FurniMart - Modern Furniture E-commerce Website
+
+
+
+
+
 Welcome to FurniMart, a modern and elegant furniture e-commerce website template designed to provide users with a seamless shopping experience. This website features a clean and responsive layout that highlights products beautifully while offering intuitive navigation and interactive elements.
 
 The site includes several key sections such as Home, About, Products, Client Testimonials, and Contact. The Home section features a striking hero image with a clear tagline, aimed at capturing visitor attention. The About section describes the company’s passion for quality craftsmanship and customer satisfaction. The Products section showcases a curated selection of furniture items with images and prices. Client testimonials are displayed in a slider format, allowing visitors to read feedback from satisfied customers. Lastly, the footer provides useful links and social media icons to keep users engaged.
