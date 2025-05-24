@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register - FurniMart</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg,  #254d4d, #aac3b8);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .header {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      font-size: 2rem;
+      font-weight: bold;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+
+    .auth-container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .auth-form h2 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .auth-form input {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      background-color: rgba(255, 255, 255, 0.6);
+      color: #333;
+    }
+
+    .auth-form button {
+      width: 100%;
+      padding: 0.8rem;
+      background-color: #4c7f6f;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .auth-form button:hover {
+      background-color: #3c6a5a;
+    }
+
+    .auth-form p {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: white;
+    }
+
+    .auth-form a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">FurniMart</div>
+
+  <div class="auth-container">
+    <form class="auth-form" id="registerForm">
+      <h2>Create Account</h2>
+      <input type="text" placeholder="Full Name" id="registerName" required />
+      <input type="email" placeholder="Email" id="registerEmail" required />
+      <input type="password" placeholder="Password" id="registerPassword" required />
+      <button type="submit">Register</button>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('registerForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      // You can add validation or registration logic here if needed
+      
+      // Redirect to index.html after register button clicked
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>
