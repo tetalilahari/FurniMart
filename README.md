@@ -1,6 +1,4 @@
-                                                      FurniMart - Modern Furniture E-commerce Website
-
-
+                                      FurniMart - Modern Furniture E-commerce Website
 
 
 
